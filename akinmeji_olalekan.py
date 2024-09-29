@@ -43,7 +43,7 @@ inner join sell
 group by buy.calender_month, buy.buy_quantity, sell.sell_quantity;
 """
 
-
+###
 question_four = """
 with btc_bought as(
 	select 
